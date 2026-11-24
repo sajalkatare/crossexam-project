@@ -4,3 +4,4 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 PIP_DISABLE_
 WORKDIR /app
 COPY requirements-lab.txt .
 RUN pip install -r requirements-lab.txt
+
